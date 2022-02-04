@@ -37,7 +37,7 @@ function preload() {
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 
-  slider = createSlider(1, 3, 1);
+  slider = createSlider(1, 5, 1);
   slider.position(20, 20);
 
 	questionHandler = new QuestionHandler();
